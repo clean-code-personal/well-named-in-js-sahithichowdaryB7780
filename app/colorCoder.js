@@ -3,7 +3,7 @@ function ColorPair(){
            this.minorColor;
 }
 ColorPair.prototype.toString=function(){
-	return `MajorColor:${this.majorColor},MinorColr:${this.minorColor}`;
+	return `MajorColor:${this.majorColor},MinorColor:${this.minorColor}`;
 }
 function getColorFromPairNumber(pairNumber){
 	const minorSize = MajorColorNames.length;
