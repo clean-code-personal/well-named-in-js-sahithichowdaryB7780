@@ -17,6 +17,11 @@
             console.log(`[In]Pair Number: ${pairNumber},[Out] Colors:${testPair1}`);
 			console.assert(testPair1.majorColor == "RED");
 			console.assert(testPair1.minorColor == "GREEN");
+	 
+	               pairNumber = -1;
+            const testPair1 = getColorFromPairNumber(pairNumber);
+	    console.log('[In]Pair Number: ${pairNumber},[Out] Argument PairNumber:${pairNumber} is outside the allowed range');
+	    console.assert(Argument PairNumber:${pairNumber} is outside the allowed range);
 			 
             const testPair2 = new ColorPair();
 			testPair2.majorColor="YELLOW";
