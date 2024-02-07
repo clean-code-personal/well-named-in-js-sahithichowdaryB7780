@@ -4,7 +4,7 @@ const MajorColorNames = [
 const MinorColorNames = [
 	"BLUE", "ORANGE", "GREEN", "BROWN", "SLATE"
 ];
-function formatColorCoding(){
+function manual(){
   let formatted_String="Formatted Color Coding\n";
   for (let majorIndex=0; majorIndex < MajorColorNames.length; majorIndex+1){
     for(let minorIndex=0; minorIndex < MinorColorNames.length;minorIndex+1){
