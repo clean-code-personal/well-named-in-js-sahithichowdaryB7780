@@ -1,5 +1,5 @@
 function testFormatColorCoding() {
-    const actualOutput = formatColorCoding();
+    const actualOutput = manual();
     const manual = `Color Coding:
 [Pair Number: 1] Major Color: WHITE, Minor Color: BLUE
 [Pair Number: 2] Major Color: WHITE, Minor Color: ORANGE
